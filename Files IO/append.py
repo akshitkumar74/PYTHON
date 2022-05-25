@@ -1,0 +1,6 @@
+f = open("sample.txt","w+")
+f.write(input("write to append : "))
+f.seek(0,0)
+s = f.read()
+print(s)
+f.close()
